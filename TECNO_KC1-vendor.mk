@@ -6,33 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/tecno/TECNO_KC1
 
 PRODUCT_COPY_FILES += \
-    vendor/tecno/TECNO_KC1/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
-    vendor/tecno/TECNO_KC1/proprietary/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/audio_policy_configuration_stub.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_configuration_stub.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy_volumes.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default_volume_tables.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/r_submix_audio_policy_configuration.xml \
-    vendor/tecno/TECNO_KC1/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
-    vendor/tecno/TECNO_KC1/proprietary/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/usb_audio_policy_configuration.xml \
-    vendor/tecno/TECNO_KC1/proprietary/lib/egl/libGLES_android.so:$(TARGET_COPY_OUT_SYSTEM)/lib/egl/libGLES_android.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/libarcsoft_panorama_burstcapture.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_wideselfie.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/libmediaextractor.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediaextractor.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/libstagefright_codecbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_codecbase.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd_mtk.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vndk-28/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-28/android.hardware.audio.common-util.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vndk-28/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-28/android.hardware.audio.common@2.0-util.so \
-    vendor/tecno/TECNO_KC1/proprietary/lib/vndk-28/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vndk-28/android.hardware.audio.common@4.0-util.so \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk:$(TARGET_COPY_OUT_VENDOR)/app/MTKThermalManager/MTKThermalManager.apk \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/aee_archivev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_archivev \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
@@ -57,15 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.audio@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@4.0-service-mediatek \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.cas@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.0-service \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.clearkey \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@2.0-service \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.override:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.override \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service \
     vendor/tecno/TECNO_KC1/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
@@ -238,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
@@ -373,7 +340,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.rc \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.clearkey.rc \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
-    vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@2.0-service.rc \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
     vendor/tecno/TECNO_KC1/proprietary/vendor/etc/init/android.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.rc \
